@@ -7,24 +7,32 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-     
     
 
-      <ul className="nav nav-pills nav-fill">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="adduser">Add USer</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled">Disabled</a>
-          </li>
-    </ul>
-
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+  <div className="container-fluid">
+    <a className="navbar-brand text-info" href="#">Asistance Control</a>
+      <ul className="navbar-nav me-auto">
+        <li className="nav-item">
+          <a className="nav-link text-white" href="/">Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-info" href="adduser">Add User</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-success" href="updateuser">Update User</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-danger" href="/">Delete User</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="/">logout</a>
+        </li>
+      </ul>
+    
+  </div>
+</nav>
 
 
 
